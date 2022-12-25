@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="app">
+      <div class="terminal-heading">
+        **************************************************
+        <span style="font-size: xxx-large;">ANSCRIPT</span>
+        **************************************************
+      </div>
+      <div>Hi, I am Anna. Let's have a chat. You can try the following commands:</div>
+      <div class="terminal-menu">
+        <ul style="list-style: none;">
+          <li>anna ping</li>
+          <li>anna -n</li>
+          <li>anna -v</li>
+          <li>anna get status</li>
+          <li>anna `{mathematical expression}`</li>
+        </ul>
+        
+      </div>
+ 
+<div>
+  <ul class="terminal-history"></ul>
+</div>
+      
+      <span style="display: flex">><div 
+        style="margin-left: 8px;" class="terminal-input" contenteditable="true"></div>
+    </div></span>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
